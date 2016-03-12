@@ -14,6 +14,9 @@
 		A5061CD41C93C6B7005C6D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5061CD21C93C6B7005C6D70 /* LaunchScreen.storyboard */; };
 		A5061CDF1C93C6B7005C6D70 /* EventCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5061CDE1C93C6B7005C6D70 /* EventCalendarTests.swift */; };
 		A5061CEA1C93C6B7005C6D70 /* EventCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5061CE91C93C6B7005C6D70 /* EventCalendarUITests.swift */; };
+		A5061CF81C93C9F0005C6D70 /* MonthTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5061CF71C93C9F0005C6D70 /* MonthTableViewController.swift */; };
+		A5061CFA1C93CF1D005C6D70 /* DateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5061CF91C93CF1D005C6D70 /* DateTableViewController.swift */; };
+		A5061CFE1C93DC07005C6D70 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5061CFD1C93DC07005C6D70 /* EventTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A5061CE51C93C6B7005C6D70 /* EventCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5061CE91C93C6B7005C6D70 /* EventCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCalendarUITests.swift; sourceTree = "<group>"; };
 		A5061CEB1C93C6B7005C6D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5061CF71C93C9F0005C6D70 /* MonthTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthTableViewController.swift; sourceTree = "<group>"; };
+		A5061CF91C93CF1D005C6D70 /* DateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewController.swift; sourceTree = "<group>"; };
+		A5061CFD1C93DC07005C6D70 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 			children = (
 				A5061CC91C93C6B7005C6D70 /* AppDelegate.swift */,
 				A5061CCB1C93C6B7005C6D70 /* ViewController.swift */,
+				A5061CFD1C93DC07005C6D70 /* EventTableViewController.swift */,
 				A5061CCD1C93C6B7005C6D70 /* Main.storyboard */,
+				A5061CF91C93CF1D005C6D70 /* DateTableViewController.swift */,
+				A5061CF71C93C9F0005C6D70 /* MonthTableViewController.swift */,
 				A5061CD01C93C6B7005C6D70 /* Assets.xcassets */,
 				A5061CD21C93C6B7005C6D70 /* LaunchScreen.storyboard */,
 				A5061CD51C93C6B7005C6D70 /* Info.plist */,
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5061CCC1C93C6B7005C6D70 /* ViewController.swift in Sources */,
+				A5061CFA1C93CF1D005C6D70 /* DateTableViewController.swift in Sources */,
+				A5061CF81C93C9F0005C6D70 /* MonthTableViewController.swift in Sources */,
 				A5061CCA1C93C6B7005C6D70 /* AppDelegate.swift in Sources */,
+				A5061CFE1C93DC07005C6D70 /* EventTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
